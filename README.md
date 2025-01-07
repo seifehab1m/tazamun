@@ -38,7 +38,7 @@ This project is a full-stack application that includes a **login system**, a **d
 - **Chart.js**: For visualizing the data with interactive charts.
 - **Context API**: For managing state across the application (e.g., storing user login data).
 - **Tailwind CSS**: For responsive design and styling.
-- **Lazy Loading**: For optimizing the loading of components like the data table.
+- **Lazy Loading**: For optimizing the performance by loading large or non-essential components only when they are needed, such as the data table. This helps reduce initial loading times and resource consumption.
 
 ---
 
