@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #7244c8;
+  --primary-gray: #f2f4f7;
+  --primary-green: #12b76a;
+  --primray-black: #344054;
+  --secondary-black: #101828;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark.ant-menu-horizontal > .ant-menu-item-selected:hover {
+  background-color: transparent !important;
+}
+
+.ant-menu-dark .ant-menu-item-selected a {
+  color: white !important;
+  font-weight: bold;
+}
+
+
+/* -------------------- input---------------- */
+.ant-form-item .ant-form-item-control-input {
+  box-shadow: 0px 1px 2px 0px #1018280d !important;
+}
+.ant-form-item {
+  margin-bottom: 15px !important;
+}
+.ant-input-outlined {
+  padding: 10px 15px;
+  border-color: #d0d5dd;
+  background-color: rgb(249, 250, 251);
+}
+.ant-form-item .ant-form-item-label > label {
+  font-weight: 500;
+  color: var(--primray-black);
+}
+
+.ant-input::placeholder {
+  color: #667085;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* --------------------- button --------------------- */
+.ant-btn-variant-solid {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  height: auto;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px !important;
+  border-radius: 8px;
+}
+.ant-btn-variant-solid:hover {
+  background-color: #6039a9 !important;
+}
